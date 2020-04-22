@@ -2,3 +2,8 @@
   margin-top: 40px;
   border: 2px solid darkmagenta;
 }
+#input{
+  width: 101.5%;
+  border:2px;
+  outline: none;
+}

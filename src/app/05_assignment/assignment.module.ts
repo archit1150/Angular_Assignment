@@ -9,7 +9,7 @@ import { AssignmentComponent } from './assignment.component';
   ],
   imports: [
     Assignment1Module,
-    Assignment2Module
+    Assignment2Module,
   ],
   exports: [
     AssignmentComponent
