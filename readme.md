@@ -1,41 +1,27 @@
-## Tools
-1. Download and Install [Git For Windows](https://git-scm.com/download/win) or [Git For Mac](https://git-scm.com/download/mac).
-2. Download and Install [Node](https://nodejs.org/en/). Download the **LTS** version.
-3. Download and Install [VSCode](https://code.visualstudio.com/).
+# LearnApp
 
-## Verify
-Open terminal and try following commands:
-```javascript
-// should print out the node version
-node -v
-```
-```javascript
-// should print out the npm version
-npm -v
-```
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
 
-## Clone Repository
-Open terminal and type the following command to clone the repository:
-```javascript
-git clone https://github.com/archit1150/Angular_Assignment.git
-```
+## Development server
 
-## Install Angular
-```javascript
-npm install -g @angular/cli
-```
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Install Packages
-```javascript
-// This will install all project's dependencies and dev-dependencies listed in package.json
-cd Angular_Assignment
-npm install
-```
+## Code scaffolding
 
-## Run
-Open terminal and type the following command:
-```javascript
-npm start
-```
-Once the project is compiled, head over to your favorite browser and enter URL ```http://localhost:4200``` to access the application.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
